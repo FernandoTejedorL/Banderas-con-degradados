@@ -26,4 +26,73 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: grey;
+  color: white;
+}
+
+.name {
+  text-align: center;
+}
+
+.flags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.one {
+  height: 150px;
+  width: 200px;
+  border: 2px solid white;
+  background-image: linear-gradient(red 33%, blue 33% 66%, orange 66%);
+}
+
+.two {
+  height: 150px;
+  width: 200px;
+  border: 2px solid white;
+  background-image: linear-gradient(
+    to right,
+    black 33%,
+    yellow 33% 66%,
+    red 66%
+  );
+}
+
+.three {
+  height: 150px;
+  width: 200px;
+  border: 2px solid white;
+  background-image: linear-gradient(
+    cornflowerblue 33%,
+    white 33% 40%,
+    black 40% 59%,
+    white 59% 66%,
+    cornflowerblue 66%
+  );
+}
+
+.four {
+  height: 150px;
+  width: 200px;
+  border: 2px solid white;
+  background-image: linear-gradient(to right, green 33%, transparent 33%),
+    linear-gradient(yellow 50%, red 50%);
+}
+
+.five {
+  height: 150px;
+  width: 200px;
+  border: 2px solid white;
+  background-image: linear-gradient(-45deg, red 40%, yellow 40% 60%, green 60%);
+}
+
+.six {
+  height: 150px;
+  width: 200px;
+  border: 2px solid white;
+  background-image: linear-gradient(-10deg, green 20%, transparent 20%),
+    linear-gradient(-20deg, white 35%, transparent 35%),
+    linear-gradient(-46deg, red 60%, transparent 60%),
+    linear-gradient(-70deg, yellow 80%, blue 80%);
 }
